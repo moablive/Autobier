@@ -1,0 +1,36 @@
+{
+  "name": "autobier-api",
+  "version": "1.0.0",
+  "description": "API Backend Autobier",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "prisma:generate": "prisma generate",
+    "prisma:studio": "prisma studio",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moablive/Autobier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/moablive/Autobier/issues"
+  },
+  "homepage": "https://github.com/moablive/Autobier#readme",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "sucrase": "^3.35.1"
+  },
+  "dependencies": {
+    "@autobier/db": "*",
+    "@autobier/middlewares": "*",
+    "@autobier/types": "*",
+    "bcryptjs": "^3.0.3"
+  }
+}

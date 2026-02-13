@@ -1,0 +1,6 @@
+{
+  "watch": ["vite.config.ts", ".env"],
+  "ext": "ts,json",
+  "exec": "vite",
+  "ignore": ["src/", "dist/", "node_modules/"]
+}
